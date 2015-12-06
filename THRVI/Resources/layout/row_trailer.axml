@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:weightSum="100"
+    android:paddingLeft="5dp"
+    android:paddingTop="2dp">
+    <TextView
+        android:id="@+id/txtStockNumber"
+        android:text="SK#"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:gravity="top|center"
+        android:textColor="#333333"
+        android:longClickable="true" />
+    <TextView
+        android:id="@+id/txtMake"
+        android:text="Make"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:gravity="top|center"
+        android:textColor="#333333"
+        android:textSize="13dp" />
+    <TextView
+        android:id="@+id/txtModel"
+        android:text="Model"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:gravity="top|center"
+        android:textColor="#333333" />
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtLocation"
+            android:text="Loc"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:textSize="12dp" />
+        <TextView
+            android:id="@+id/txtMove"
+            android:text="Dest"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="#333333"
+            android:textSize="12dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtWhiteX"
+        android:text="X"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="20"
+        android:gravity="top|center"
+        android:textColor="#333333" />
+</LinearLayout>

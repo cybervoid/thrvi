@@ -1,0 +1,32 @@
+THRVI.Core.MainActivity, THRVI;md545b7b4a34ee03b715c71d0ff4e712c69.MainActivity
+THRVI.Core.MainActivity, THRVI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md545b7b4a34ee03b715c71d0ff4e712c69.MainActivity
+THRVI.Core.MainActivity;md545b7b4a34ee03b715c71d0ff4e712c69.MainActivity
+thrvi.core.MainActivity;md545b7b4a34ee03b715c71d0ff4e712c69.MainActivity
+THRVI.Core.MoveTrailersActivity, THRVI;md545b7b4a34ee03b715c71d0ff4e712c69.MoveTrailersActivity
+THRVI.Core.MoveTrailersActivity, THRVI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md545b7b4a34ee03b715c71d0ff4e712c69.MoveTrailersActivity
+THRVI.Core.MoveTrailersActivity;md545b7b4a34ee03b715c71d0ff4e712c69.MoveTrailersActivity
+thrvi.core.MoveTrailersActivity;md545b7b4a34ee03b715c71d0ff4e712c69.MoveTrailersActivity
+THRVI.Core.ViewTrailersActivity, THRVI;md545b7b4a34ee03b715c71d0ff4e712c69.ViewTrailersActivity
+THRVI.Core.ViewTrailersActivity, THRVI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md545b7b4a34ee03b715c71d0ff4e712c69.ViewTrailersActivity
+THRVI.Core.ViewTrailersActivity;md545b7b4a34ee03b715c71d0ff4e712c69.ViewTrailersActivity
+thrvi.core.ViewTrailersActivity;md545b7b4a34ee03b715c71d0ff4e712c69.ViewTrailersActivity
+THRVI.Core.MyAnimation, THRVI;md545b7b4a34ee03b715c71d0ff4e712c69.MyAnimation
+THRVI.Core.MyAnimation, THRVI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md545b7b4a34ee03b715c71d0ff4e712c69.MyAnimation
+THRVI.Core.MyAnimation;md545b7b4a34ee03b715c71d0ff4e712c69.MyAnimation
+thrvi.core.MyAnimation;md545b7b4a34ee03b715c71d0ff4e712c69.MyAnimation
+THRVI.Core.TrailersAdapter, THRVI;md545b7b4a34ee03b715c71d0ff4e712c69.TrailersAdapter
+THRVI.Core.TrailersAdapter, THRVI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md545b7b4a34ee03b715c71d0ff4e712c69.TrailersAdapter
+THRVI.Core.TrailersAdapter;md545b7b4a34ee03b715c71d0ff4e712c69.TrailersAdapter
+thrvi.core.TrailersAdapter;md545b7b4a34ee03b715c71d0ff4e712c69.TrailersAdapter
+THRVI.Core.DialogCreateTrailer, THRVI;md545b7b4a34ee03b715c71d0ff4e712c69.DialogCreateTrailer
+THRVI.Core.DialogCreateTrailer, THRVI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md545b7b4a34ee03b715c71d0ff4e712c69.DialogCreateTrailer
+THRVI.Core.DialogCreateTrailer;md545b7b4a34ee03b715c71d0ff4e712c69.DialogCreateTrailer
+thrvi.core.DialogCreateTrailer;md545b7b4a34ee03b715c71d0ff4e712c69.DialogCreateTrailer
+THRVI.Core.LocationSpinnerAdapter, THRVI;md545b7b4a34ee03b715c71d0ff4e712c69.LocationSpinnerAdapter
+THRVI.Core.LocationSpinnerAdapter, THRVI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md545b7b4a34ee03b715c71d0ff4e712c69.LocationSpinnerAdapter
+THRVI.Core.LocationSpinnerAdapter;md545b7b4a34ee03b715c71d0ff4e712c69.LocationSpinnerAdapter
+thrvi.core.LocationSpinnerAdapter;md545b7b4a34ee03b715c71d0ff4e712c69.LocationSpinnerAdapter
+THRVI.Core.DialogUpdateTrailer, THRVI;md545b7b4a34ee03b715c71d0ff4e712c69.DialogUpdateTrailer
+THRVI.Core.DialogUpdateTrailer, THRVI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md545b7b4a34ee03b715c71d0ff4e712c69.DialogUpdateTrailer
+THRVI.Core.DialogUpdateTrailer;md545b7b4a34ee03b715c71d0ff4e712c69.DialogUpdateTrailer
+thrvi.core.DialogUpdateTrailer;md545b7b4a34ee03b715c71d0ff4e712c69.DialogUpdateTrailer

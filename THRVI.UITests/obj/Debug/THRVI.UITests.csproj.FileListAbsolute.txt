@@ -1,0 +1,8 @@
+F:\Development\workspace\XamarinStudio\THRVI\THRVI.UITests\bin\Debug\THRVI.UITests.dll
+F:\Development\workspace\XamarinStudio\THRVI\THRVI.UITests\bin\Debug\THRVI.UITests.pdb
+F:\Development\workspace\XamarinStudio\THRVI\THRVI.UITests\bin\Debug\nunit.framework.dll
+F:\Development\workspace\XamarinStudio\THRVI\THRVI.UITests\bin\Debug\Xamarin.UITest.dll
+F:\Development\workspace\XamarinStudio\THRVI\THRVI.UITests\bin\Debug\nunit.framework.xml
+F:\Development\workspace\XamarinStudio\THRVI\THRVI.UITests\bin\Debug\Xamarin.UITest.xml
+F:\Development\workspace\XamarinStudio\THRVI\THRVI.UITests\obj\Debug\THRVI.UITests.dll
+F:\Development\workspace\XamarinStudio\THRVI\THRVI.UITests\obj\Debug\THRVI.UITests.pdb

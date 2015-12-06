@@ -1,0 +1,1 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/search" android:title="Search" android:icon="@drawable/ic_action_search" android:showAsAction="always" /><item android:id="@+id/add" android:title="New" android:icon="@drawable/ic_action_new" android:showAsAction="always" /></menu>

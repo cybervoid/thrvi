@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{E41DEB3F-1562-4A0F-AD50-2AAAE8BE8291}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>THRVI</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>THRVI</AssemblyName>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MoveTrailersActivity.cs" />
+    <Compile Include="ViewTrailersActivity.cs" />
+    <Compile Include="Core\Util\ExtMethods.cs" />
+    <Compile Include="Core\Util\PropertyConverter.cs" />
+    <Compile Include="Core\Features\MyAnimation.cs" />
+    <Compile Include="Core\Adapters\TrailersAdapter.cs" />
+    <Compile Include="Core\Web\Website.cs" />
+    <Compile Include="Core\Objects\Trailer.cs" />
+    <Compile Include="Core\Objects\Location.cs" />
+    <Compile Include="Core\Dialogs\DialogCreateTrailer.cs" />
+    <Compile Include="Core\Web\WebData.cs" />
+    <Compile Include="Core\Util\LocationHandler.cs" />
+    <Compile Include="Core\Util\Debugger.cs" />
+    <Compile Include="Core\Adapters\LocationSpinnerAdapter.cs" />
+    <Compile Include="Core\Util\LocationCast.cs" />
+    <Compile Include="Core\Dialogs\DialogUpdateTrailer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\anim\slide_down.xml" />
+    <AndroidResource Include="Resources\anim\slide_up.xml" />
+    <AndroidResource Include="Resources\drawable\ButtonCreateStyle.xml" />
+    <AndroidResource Include="Resources\drawable\edit_text_style.xml" />
+    <AndroidResource Include="Resources\drawable\ic_action_discard.png" />
+    <AndroidResource Include="Resources\drawable\ic_action_new.png" />
+    <AndroidResource Include="Resources\drawable\ic_action_search.png" />
+    <AndroidResource Include="Resources\drawable\ProgressBarStyle.xml" />
+    <AndroidResource Include="Resources\layout\dialog_create_trailer.axml" />
+    <AndroidResource Include="Resources\layout\move_trailers.axml" />
+    <AndroidResource Include="Resources\layout\options.axml" />
+    <AndroidResource Include="Resources\layout\row_trailer.axml" />
+    <AndroidResource Include="Resources\layout\view_trailers.axml" />
+    <AndroidResource Include="Resources\menu\actionbar.xml" />
+    <AndroidResource Include="Resources\drawable\spinner_style.xml" />
+    <AndroidResource Include="Resources\layout\dialog_update_trailer.axml" />
+    <AndroidResource Include="Resources\menu\deletebar.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\anim\" />
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\menu\" />
+    <Folder Include="Core\" />
+    <Folder Include="Core\Web\" />
+    <Folder Include="Core\Util\" />
+    <Folder Include="Core\Features\" />
+    <Folder Include="Core\Adapters\" />
+    <Folder Include="Core\Objects\" />
+    <Folder Include="Core\Dialogs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="json.net">
+      <Version>7.0.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+</Project>

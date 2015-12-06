@@ -1,0 +1,7 @@
+F:\Development\workspace\XamarinStudio\THRVI\THRVI\obj\Release\android\assets\THRVI.dll
+F:\Development\workspace\XamarinStudio\THRVI\THRVI\obj\Release\android\assets\Mono.Android.dll
+F:\Development\workspace\XamarinStudio\THRVI\THRVI\obj\Release\android\assets\mscorlib.dll
+F:\Development\workspace\XamarinStudio\THRVI\THRVI\obj\Release\android\assets\Newtonsoft.Json.dll
+F:\Development\workspace\XamarinStudio\THRVI\THRVI\obj\Release\android\assets\System.Core.dll
+F:\Development\workspace\XamarinStudio\THRVI\THRVI\obj\Release\android\assets\System.dll
+F:\Development\workspace\XamarinStudio\THRVI\THRVI\obj\Release\android\assets\System.Runtime.Serialization.dll

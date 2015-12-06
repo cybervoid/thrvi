@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ryanwemmer.thrvi" android:versionName="0.25" android:versionCode="15">
+	<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="17" />
+	<application android:label="THRVI" android:icon="@drawable/Icon"></application>
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>
